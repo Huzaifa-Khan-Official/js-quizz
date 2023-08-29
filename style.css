@@ -1,0 +1,11 @@
+.restartbtn {
+    display: block;
+    margin: auto;
+}
+
+#resultDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
