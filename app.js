@@ -262,7 +262,7 @@ function displayAnswers(options, correctAnswer, currentQuestionIndex) {
     if (currentQuestionIndex < questions.length) {
         options.forEach(element => {
             var answerbtn = document.createElement("button");
-            answerbtn.setAttribute("class", "btn btn-secondary mt-4");
+            answerbtn.setAttribute("class", "btn btn-secondary mt-4 answerBtn");
             answerbtn.setAttribute("onclick", `checkAnswer('${element}', '${correctAnswer}')`)
             answerbtn.innerText = element;
             answerContainer.appendChild(answerbtn);

@@ -1,11 +1,13 @@
-.restartbtn {
-    display: block;
-    margin: auto;
+body {
+    overflow-x: hidden;
 }
-
 #resultDiv {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.answerBtn {
+    word-wrap: break-word;
 }
